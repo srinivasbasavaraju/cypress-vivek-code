@@ -1,0 +1,17 @@
+[
+    {
+        "username": "Srinivas",
+        "password": "Srinivas123",
+        "header": "Invalid credentials"
+    },
+    {
+        "username": "Vevik",
+        "password": "Vivek123",
+        "header": "Invalid credentials"
+    },
+    {
+        "username": "Admin",
+        "password": "admin123",
+        "header": "Dashboard"
+    }
+]
