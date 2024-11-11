@@ -18,7 +18,7 @@ describe('Frame work part 1', () => {
         })
     })
 
-    it.skip('page object module', () => {
+    it('page object module', () => {
 
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
 

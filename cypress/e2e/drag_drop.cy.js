@@ -9,7 +9,7 @@ import '@4tw/cypress-drag-drop';
  * 
  */
 
-it.skip('Drag and Drops',()=>{
+it('Drag and Drops',()=>{
 
     cy.visit('http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')
 

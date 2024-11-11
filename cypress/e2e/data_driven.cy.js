@@ -8,7 +8,7 @@ describe('Data driven Test', () => {
         })
     })
 
-    it.skip('Basic', () => {
+    it('Basic', () => {
 
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
         cy.get('[name="username"]').type('Admin')
@@ -19,7 +19,7 @@ describe('Data driven Test', () => {
 
     })
 
-    it.skip('Fixtures direct access', () => {
+    it('Fixtures direct access', () => {
 
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
@@ -32,7 +32,7 @@ describe('Data driven Test', () => {
         })
     })
 
-    it.skip('Access throu hooks', () => {
+    it('Access throu hooks', () => {
 
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
